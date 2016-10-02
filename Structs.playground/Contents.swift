@@ -91,9 +91,8 @@ func fillMug_(mug: Mug_) {
 
 let myMug_ = Mug_()
 print(myMug_.amountOfCoffee)
-fillMug_(myMug_)
+fillMug_(mug: myMug_)
 print(myMug_.amountOfCoffee)
-
 
 
 struct Mug {
